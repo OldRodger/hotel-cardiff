@@ -1,0 +1,8 @@
+.searchForm{
+    padding: 1em;
+    background-color: white;   
+}
+
+.searchForm form{
+    align-items: center;
+}

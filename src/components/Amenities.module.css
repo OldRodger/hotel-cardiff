@@ -1,0 +1,14 @@
+.amenities{
+    columns: 2;
+}
+
+.amenity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5em;
+}
+
+.amenity:not(:last-child){
+    margin-bottom: .8em;
+}

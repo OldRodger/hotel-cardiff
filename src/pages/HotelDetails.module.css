@@ -1,0 +1,35 @@
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details__right {
+    display: grid;
+}
+
+.gallery {
+    border-radius: 12px;
+    overflow: hidden;
+    display: grid;
+    gap: .8em;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 10em);
+    grid-auto-rows: 10em;
+}
+
+.gallery__item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item--big {
+    grid-column: 1 / span 2;
+    grid-row: 1 / -1;
+}
+
+.rooms{
+    list-style: none;
+}
+

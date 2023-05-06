@@ -1,0 +1,14 @@
+.banner{
+    height: 75vh;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox{
+    color: white
+}
+

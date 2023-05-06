@@ -1,0 +1,46 @@
+.flexRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.ticket {
+    display: flex;
+    flex: 5;
+}
+
+.ticket__date {
+    background-color: var(--color-primary-lightest);
+    flex: 1;
+    padding: 1.5em 1em;
+}
+
+.ticket__details {
+    flex: 3;
+    position: relative;
+}
+
+.ticket__user-details{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 10px;
+    background-color: #8dd3bb;
+    padding: 1em;
+}
+
+.logo-box {
+    flex: 2;
+    display: grid;
+    place-items: center;
+    background-color: var(--color-primary-light) !important;
+}
+
+.logo-box img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+}

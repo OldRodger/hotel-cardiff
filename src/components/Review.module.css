@@ -1,0 +1,15 @@
+.review {
+    display: flex;
+    gap: .8em;
+    margin-bottom: 1em;
+}
+
+.review:not(:first-child){
+    margin-top: 1em;
+}
+
+
+
+.details{
+    flex: 1;
+}

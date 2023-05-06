@@ -1,0 +1,61 @@
+.layout {
+    display: flex;
+    gap: 4rem;
+    align-items: flex-start;
+}
+
+.layout__first {
+    flex: 5;
+}
+
+.card {
+    padding: 1em;
+    background-color: white;
+}
+
+.details {
+    flex: 3;
+}
+
+.details__top {
+    gap: 1em;
+}
+
+.details__img-box {
+    height: 8em;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.details__img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.details__hotel-detail {
+    /* flex: 5; */
+}
+
+.details__review-box {
+    display: flex;
+    align-items: center;
+    gap: .3em;
+}
+
+.details__review {
+    border: 1px solid currentColor;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+.paymentCard{
+    display: flex;
+    background-color: var(--color-primary-light);
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    padding: 1em;
+    margin-top: 15px;
+}

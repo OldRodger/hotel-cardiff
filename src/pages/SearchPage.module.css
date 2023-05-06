@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+}
+
+.container>div:first-child {
+    flex: 1;
+    padding-right: 1.3em;
+}
+
+.container>div:last-child {
+    flex: 2;
+    border-left: 1px solid #d3d3d3;
+    padding-left: .8em;
+
+}
+
+.box {
+    padding: .5em 0;
+}

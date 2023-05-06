@@ -1,0 +1,16 @@
+.navigation {
+    display: flex;
+    padding: 1em;
+    gap: 5rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navigation a {
+    flex: 1;
+}
+
+.active{
+    color: red;
+}

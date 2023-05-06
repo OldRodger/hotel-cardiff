@@ -1,0 +1,19 @@
+.banner {
+    position: relative;
+    height: 45vh;
+    padding: 2em;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: top;
+    background-color: #aaa;
+
+}
+
+.banner__img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+}

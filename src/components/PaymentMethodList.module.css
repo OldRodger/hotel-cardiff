@@ -1,0 +1,48 @@
+.container{
+    background-color: white;
+    padding: 2em 1em;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em;
+}
+
+.card{
+    width: 350px;
+    height: 200px;
+    background-color: var(--color-primary-light);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__asteric{
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 900;
+}
+
+.card__number{
+    line-height: .5;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.add-card-btn{
+    width: 350px;
+    height: 200px;
+    border-radius: 1em;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border: 2px dashed var(--color-primary-light);
+}
+
+.delete-btn{
+    align-self: flex-start;
+}

@@ -1,0 +1,32 @@
+.footer{
+    background-color: #2a9d8f;
+}
+
+.newsLetter{
+    background-color: #cdeae1;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: -10rem;
+    margin-top: 15rem;
+}
+
+.input {
+    padding:18px 20px;
+    border-radius: 5px;
+    font-family: 'quicksand';
+    flex: 1;
+    font-weight: 500;
+    border: none;
+    font-size: 16px;
+}
+
+.input::placeholder{
+    color: black
+}
+
+.mailBox img{
+    width: 82%;
+    height: 82%;
+    object-fit: contain;
+}

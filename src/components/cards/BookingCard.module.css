@@ -1,0 +1,38 @@
+.booking{
+    padding: 1em .8em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1em;
+    background-color: #fff;
+}
+
+.img-box{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-primary-light);
+    padding: 5px;
+    border-radius: 5px;   
+    display: grid;
+    place-items: center;
+
+}
+
+.img-box img{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.date{
+    display: flex;
+    gap: .8em;
+    
+}
+
+.arrival{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-right: auto;
+}

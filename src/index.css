@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-body: 'quicksand', sans-serif;
+  --color-primary: #1d6d64;
+  --color-primary-light: #8dd3bb;
+  --color-primary-lightest: #ebf6f2;
+
+}
+
+
+body {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: var(--font-body);
+  color: #383838;
+  background-color: #fafbfc;
+}
+
+button {
+  font-weight: 600;
+}
+
+button:not([data-type="stagnant"]):hover {
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section.section {
+  width: 80%;
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+section.section__small {
+  width: 90%;
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+
+.searchFormHome {
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: -110px;
+  padding: 30px;
+
+}
+
+.profile {
+  cursor: default;
+}
+
+.dropdown {
+  background-color: white;
+  position: absolute;
+  width: 20rem;
+  top: 90%;
+  right: 1rem;
+  border-radius: 8px;
+  padding: 1.6rem;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -5;
+
+}
+
+
+.profile:hover .dropdown,
+.dropdown:hover {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+
+  transition-property: opacity, visibility;
+  transition-duration: .2s;
+  transition-timing-function: linear;
+
+}

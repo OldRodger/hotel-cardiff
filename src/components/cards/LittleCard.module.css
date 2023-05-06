@@ -1,0 +1,31 @@
+.littleCard{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    background-color: white;
+}
+
+.noWrapper{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.imageBox{
+    overflow: hidden;
+    flex:2;
+    border-radius: 8px;
+}
+
+.imageBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contentBox{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
